@@ -1,0 +1,58 @@
+body {
+  background-color: #C0C0C0;
+  cursor: url('../img/cursor.png'), default;
+}
+
+h1 {
+  font-family: Times, Helvetica;
+  color: #FFF000;
+  text-align: center;
+}
+
+h2 {
+  font-family: Times, Helvetica;
+}
+
+h3 {
+  font-family: Times, Helvetica;
+}
+
+h4 {
+  font-family: Times, Helvetica;
+}
+
+h5 {
+  font-family: Times, Helvetica;
+}
+
+h6 {
+  font-family: Times, Helvetica;
+}
+
+.btn {
+  font-family: Serif, Helvetica;
+  border: 2px solid #FFFFFF;
+  border-radius: 70px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #546666;
+  color: #D1FFFF;
+  cursor: url('../img/cursor.png'), default;
+}
+
+.doors {
+  border: 5px dotted #546666;
+  border-radius: 10px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
