@@ -1,11 +1,36 @@
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: url('../img/cursor.png'), default;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: url('../img/cursor.png'), default;
+}
+
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: url('../img/cursor.png'), default;
+}
+
 body {
+  background: url('../img/background.png') no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  text-align: center;
+  font-family: Times, Helvetica;
   background-color: #C0C0C0;
   cursor: url('../img/cursor.png'), default;
 }
 
 h1 {
   font-family: Times, Helvetica;
-  color: #FFF000;
+  color: #FFFFCC;
   text-align: center;
 }
 
@@ -38,14 +63,19 @@ h6 {
 }
 
 .btn:hover {
-  background-color: #546666;
-  color: #D1FFFF;
+  background-color: #33A589;
+  color: #FFFFFF;
   cursor: url('../img/cursor.png'), default;
 }
 
 .doors {
-  border: 5px dotted #546666;
+  border: 5px double #FFFFCC;
   border-radius: 10px;
+  margin: 10px;
+}
+
+.navbar {
+  background-color: #000000; opacity: 0.85; filter: alpha(opacity=50);
 }
 
 .navbar .navbar-nav {
