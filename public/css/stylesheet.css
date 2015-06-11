@@ -55,7 +55,9 @@ h6 {
 }
 
 .btn {
+  background-color: #FFFFFF;
   font-family: Serif, Helvetica;
+  color: #000000;
   border: 2px solid #FFFFFF;
   border-radius: 70px;
   padding: 5px;
@@ -75,7 +77,13 @@ h6 {
 }
 
 .navbar {
-  background-color: #000000; opacity: 0.85; filter: alpha(opacity=50);
+  background-color: #000000;
+  opacity: 0.85;
+  filter: alpha(opacity=50);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
 }
 
 .navbar .navbar-nav {
